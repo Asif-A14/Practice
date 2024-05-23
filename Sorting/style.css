@@ -1,0 +1,82 @@
+
+html, body, h1, table {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+padding: 20px;
+}
+
+
+h1 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"], button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    width: 150px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#sortedNumberTable {
+    display: none;
+}
+
+#numberTable, #sortedNumberTable {
+    margin-top: 20px;
+}
+
+#numberTable th, #sortedNumberTable th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#numberTable tbody, #sortedNumberTable tbody {
+    background-color: white;
+}
+
+#numberTable td, #sortedNumberTable td {
+    border-bottom: 1px solid #ddd;
+}
